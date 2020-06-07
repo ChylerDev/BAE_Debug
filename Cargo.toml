@@ -14,5 +14,5 @@ is-it-maintained-issue-resolution = { repository = "ChylerDev/BAE" }
 is-it-maintained-open-issues = { repository = "ChylerDev/BAE" }
 maintenance = { status = "actively-developed" }
 
-[dependencies]
+[dev-dependencies]
 version-sync = "0.9"
