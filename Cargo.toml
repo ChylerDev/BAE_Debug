@@ -1,0 +1,18 @@
+[package]
+name = "bae_debug"
+description = "Debug tools for the Broad Audio Engine."
+repository = "https://github.com/ChylerDev/BAE_Debug"
+license = "MIT"
+version = "0.14.0"
+authors = [ "Chyler Morrison <contact@chyler.info>" ]
+edition = "2018"
+keywords = [ "audio", "audio-processing" ]
+categories = [ "multimedia::audio" ]
+
+[badges]
+is-it-maintained-issue-resolution = { repository = "ChylerDev/BAE" }
+is-it-maintained-open-issues = { repository = "ChylerDev/BAE" }
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+version-sync = "0.9"
