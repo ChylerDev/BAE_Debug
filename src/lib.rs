@@ -10,9 +10,10 @@
 /// # Parameters
 ///
 /// * `a`, `b` - Floating point values that will be compared
-/// * `e` - The epsilon value with which the difference between parameters `a`
-///   and `b` must be to be deemed equivalent. For built-in floating point types
-///   you are welcome to use [`f32::EPSILON`] or [`f64::EPSILON`].
+/// * `e` - The epsilon value with which the absolute difference between
+///   parameters `a` and `b` must be to be deemed equivalent. For built-in
+///   floating point types you are welcome to use [`f32::EPSILON`] or
+///   [`f64::EPSILON`].
 /// * `abs` - Function that determines the absolute value of the given floating
 ///   point value. For built-in floating point types you are welcome to use
 ///   [`f32::abs`] or [`f64::abs`].
